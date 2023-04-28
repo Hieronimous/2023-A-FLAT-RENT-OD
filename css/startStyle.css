@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner {
+    margin: 0;
+    align-items: center;
+}
+
+body a {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+@import 'https://fonts.googleapis.com/css?family=Impact';
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-image: url(../img/Start_OK.jpg);
+}
+
+.button {
+    display: inline-block;
+    padding: 40px;
+    color: #71111f;
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    transform: translate(-50%, -50%) scale(1.8);
+    vertical-align: middle;
+    font-family: 'Impact', sans-serif;
+    text-decoration: none;
+    font-size: 28px;
+    background-color: #71111f;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.button:hover {
+    transform: translate(-50%, -50%) scale(2.5);
+    box-shadow: 0px 0px 30px #f7b369;
+}
+
+.button:active {
+    transform: translate(-50%, -50%) scale(2.5);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+
+/*  #8a66b0 */
